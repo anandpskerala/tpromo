@@ -292,7 +292,7 @@ def main():
 
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
-    job = dp.job_queue
+   
 
     conv_handler = ConversationHandler(
         entry_points = [CommandHandler('start', start)],
