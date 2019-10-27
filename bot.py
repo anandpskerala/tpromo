@@ -322,9 +322,7 @@ def main():
     # dp.add_handler(test_command_handler)
     dp.add_error_handler(error) # log all errors
 
-    # Job Queue
-    job.run_daily(list_maker, time=timer('08:30:00'), days=(2))
-
+    
     # Start the Bot
     updater.start_polling()
 
