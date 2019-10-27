@@ -140,7 +140,7 @@ def done(bot, update):
     query = update.callback_query
     print(query)
     channel_username = f"@{username}"
-    dope = bot.getChatMember(channel_username, 633454130)
+    dope = bot.getChatMember(channel_username, 646146866)
     print(dope)
     chat_info = bot.getChat(f"@{username}")
     if dope.can_post_messages == True and dope.can_edit_messages == True and dope.can_delete_messages == True:
